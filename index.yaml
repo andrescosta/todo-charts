@@ -13,6 +13,16 @@ entries:
     version: 0.1.0
   todo-web-jobico:
   - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2024-08-12T15:12:26.376950507Z"
+    description: TODO Web chart
+    digest: 1e265b1f31a45f54190cc31814229c6355aba1fb49c271a8f6ae70ca0befd787
+    name: todo-web-jobico
+    type: application
+    urls:
+    - https://github.com/andrescosta/todo-charts/releases/download/todo-web-jobico-0.2.0/todo-web-jobico-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-08-12T10:26:59.567925126-04:00"
     description: A Helm chart for Kubernetes
@@ -22,4 +32,4 @@ entries:
     urls:
     - https://andrescosta.github.io/todo-charts/charts/todo-web-jobico-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-12T10:26:59.567025104-04:00"
+generated: "2024-08-12T15:12:26.376986635Z"
