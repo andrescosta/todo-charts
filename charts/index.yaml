@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  todo-svc-jobico:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-12T10:26:59.56758352-04:00"
+    description: Todo API
+    digest: 775e1c56049cf3f5d9746b96c243899e624da6456b1c71e37f54fc170ac58190
+    name: todo-svc-jobico
+    type: application
+    urls:
+    - https://andrescosta.github.io/todo-charts/charts/todo-svc-jobico-0.1.0.tgz
+    version: 0.1.0
+  todo-web-jobico:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-12T10:26:59.567925126-04:00"
+    description: A Helm chart for Kubernetes
+    digest: f47047927089b4bfcc986b8ccc9122d40638bafe5119238f93d49c3f95174b3e
+    name: todo-web-jobico
+    type: application
+    urls:
+    - https://andrescosta.github.io/todo-charts/charts/todo-web-jobico-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-12T10:26:59.567025104-04:00"
