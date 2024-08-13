@@ -2,5 +2,5 @@ apiVersion: v2
 name: todo-svc-jobico
 description: Todo API
 type: application
-version: 0.2.0
-appVersion: 1.1-537e8b1
+version: 0.3-5f82b37
+appVersion: 1.1-5f82b37
