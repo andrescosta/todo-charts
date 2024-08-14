@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   todo-svc-jobico:
   - apiVersion: v2
+    appVersion: 1.1.53
+    created: "2024-08-14T21:14:56.625547701Z"
+    description: Todo API
+    digest: f60fc52b9947578f63d80592081e72527f00dabda35b59cba1e60c6b8fbb1569
+    name: todo-svc-jobico
+    type: application
+    urls:
+    - https://github.com/andrescosta/todo-charts/releases/download/todo-svc-jobico-0.4.53/todo-svc-jobico-0.4.53.tgz
+    version: 0.4.53
+  - apiVersion: v2
     appVersion: 1.1.52
     created: "2024-08-14T20:49:09.548913269Z"
     description: Todo API
@@ -192,4 +202,4 @@ entries:
     urls:
     - https://andrescosta.github.io/todo-charts/charts/todo-web-jobico-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-14T20:49:09.549068287Z"
+generated: "2024-08-14T21:14:56.62568075Z"
