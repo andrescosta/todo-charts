@@ -273,6 +273,16 @@ entries:
     version: 0.1.0
   todo-web-jobico:
   - apiVersion: v2
+    appVersion: 1.1.74
+    created: "2024-08-19T15:34:24.098012796Z"
+    description: TODO Web chart
+    digest: 1887ade0dd2b59235f262cf4de1402ad5ba38fae1f43f8a1d3b55a768cea2d33
+    name: todo-web-jobico
+    type: application
+    urls:
+    - https://github.com/andrescosta/todo-charts/releases/download/todo-web-jobico-0.4.74/todo-web-jobico-0.4.74.tgz
+    version: 0.4.74
+  - apiVersion: v2
     appVersion: 1.1.73
     created: "2024-08-19T14:56:58.78677613Z"
     description: TODO Web chart
@@ -382,4 +392,4 @@ entries:
     urls:
     - https://andrescosta.github.io/todo-charts/charts/todo-web-jobico-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-19T15:33:26.582657646Z"
+generated: "2024-08-19T15:34:24.098097354Z"
