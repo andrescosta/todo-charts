@@ -17,7 +17,7 @@ fullnameOverride: ""
 
 mode:
   dev: 
-    enabled: true
+    enabled: false
     label: version # default: date
   
 serviceAccount:
