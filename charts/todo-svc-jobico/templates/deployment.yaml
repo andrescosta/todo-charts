@@ -22,6 +22,9 @@ spec:
         {{- with .Values.podLabels }}
         {{- toYaml . | nindent 8 }}
         {{- end }}
+        {{- if .Values.mode.dev.enabled }}
+        {{.Values.mode.dev.label | default "date" }}: "{{ now | unixEpoch }}"
+        {{- end }}
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
