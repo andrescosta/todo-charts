@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg.jobico.org/todoweb
+  repository: reg.jobico.local/todoweb
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -56,14 +56,14 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: todo.jobico.org
+    - host: todo.jobico.local
       paths:
         - path: /
           pathType: Prefix
   tls: 
     - secretName: certs-secret
       hosts:
-        - todo.jobico.org
+        - todo.jobico.local
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

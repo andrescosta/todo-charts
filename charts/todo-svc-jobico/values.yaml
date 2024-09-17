@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: reg.jobico.org/todosvc
+  repository: reg.jobico.local/todosvc
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
@@ -56,14 +56,14 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: todosvc.jobico.org
+    - host: todosvc.jobico.local
       paths:
         - path: /
           pathType: Prefix
   tls: 
     - secretName: certs-secret
       hosts:
-        - todosvc.jobico.org
+        - todosvc.jobico.local
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
@@ -133,6 +133,6 @@ env:
   - name: PYROSCOPE_LOG_LEVEL
     value: "info"
   - name: PYROSCOPE_LABELS
-    value: "todo-svc.jobico.org"
+    value: "todo-svc.jobico.local"
   - name: PYROSCOPE_SERVER_ADDRESS
     value: "http://pyroscope.obs.svc.cluster.local:4040"
